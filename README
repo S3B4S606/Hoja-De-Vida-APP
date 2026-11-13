@@ -1,0 +1,13 @@
+# Hoja de Vida Móvil - React Native & Expo
+
+Aplicación móvil desarrollada como parte de la formación en Análisis y Desarrollo de Software (ADSO) - SENA.
+
+## Estructura del Proyecto
+- `src/app/`: Pantallas principales con navegación por pestañas (`index`, `estudios`, `experiencia`, `hobbies`).
+- `src/components/`: Componentes reutilizables (`MiBoton`, `TarjetaEstudio`, `TarjetaExperiencia`, `TarjetaHobby`).
+
+## Ejecución
+\`\`\`bash
+npm install
+npx expo start
+\`\`\`
