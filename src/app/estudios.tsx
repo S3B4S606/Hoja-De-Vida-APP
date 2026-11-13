@@ -5,6 +5,9 @@ export default function EstudiosScreen() {
   return (
     <ScrollView style={estilos.contenedor} contentContainerStyle={estilos.contenido}>
       <Text style={estilos.tituloPrincipal}>Formación Académica</Text>
+      <Text style={estilos.subtituloSeccion}>
+        Historial educativo y formación técnica/tecnológica en curso.
+      </Text>
       
       <TarjetaEstudio
         titulo="Bachiller Académico"
@@ -39,4 +42,5 @@ const estilos = StyleSheet.create({
     color: "#0f172a",
     marginBottom: 12,
   },
+  subtituloSeccion: { fontSize: 14, color: "#64748b", marginBottom: 16 },
 });
