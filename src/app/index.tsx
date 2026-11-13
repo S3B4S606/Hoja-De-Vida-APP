@@ -56,6 +56,12 @@ export default function Inicio() {
           colorBoton="#000000"
           onPress={() => Alert.alert("TikTok", "Abriendo perfil...")}
         />
+        <MiBoton
+          textoBoton="Repositorios GitHub"
+          nombreIcono="logo-github"
+          colorBoton="#24292e"
+          onPress={() => Alert.alert("GitHub", "Usuario: S3B4S606 - Portafolio de proyectos ADSO")}
+        />
       </View>
     </ScrollView>
   );
