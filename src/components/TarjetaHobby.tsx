@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 type Props = {
   nombre: string;
-  icono: keyof typeof Ionicons.glyphMap;
+  icono: any; // Cambiado a any para evitar conflictos de nombres de iconos con TypeScript
   onPress: () => void;
 };
 
